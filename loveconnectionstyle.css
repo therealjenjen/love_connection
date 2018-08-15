@@ -1,0 +1,27 @@
+html{
+  background: white
+}
+body{
+  width:80%;
+  background-color: purple ;
+  font-family: inherit;
+}
+
+h1{
+  color: fuschia
+  font-size: 2.5em;
+}
+div{}
+
+
+.column {
+      float: left;
+      width: 33.33%;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
